@@ -193,8 +193,8 @@ body {
     .pokeball {
         height: 1.5em; /* Reducir la altura de la Pokébola */
         width: 1.5em; /* Reducir el ancho de la Pokébola */
-        top: 25%; /* Ajustar la posición de la Pokébola */
-        left: 50%; /* Ajustar la posición de la Pokébola */
+        top: 1%; /* Ajustar la posición de la Pokébola */
+        left: 35%; /* Ajustar la posición de la Pokébola */
     }
 
     .loading {
