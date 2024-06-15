@@ -167,3 +167,37 @@ body {
         color: red;
     }
 }
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        height: auto; /* Permitir altura automática en dispositivos móviles */
+        padding: 20px; /* Añadir relleno alrededor del cuerpo */
+    }
+    
+    #loadingScreen {
+        padding: 10px; /* Añadir relleno alrededor de la pantalla de carga */
+    }
+
+    .base {
+        height: 100px; /* Reducir la altura del contenedor */
+        width: 100px; /* Reducir el ancho del contenedor */
+        transform: scale(1); /* Reducir la escala del contenedor */
+    }
+
+    .bat {
+        height: 0.1em; /* Reducir la altura de la línea */
+        width: 2em; /* Reducir el ancho de la línea */
+        top: 70%; /* Ajustar la posición de la línea */
+    }
+
+    .pokeball {
+        height: 1.5em; /* Reducir la altura de la Pokébola */
+        width: 1.5em; /* Reducir el ancho de la Pokébola */
+        top: 25%; /* Ajustar la posición de la Pokébola */
+        left: 50%; /* Ajustar la posición de la Pokébola */
+    }
+
+    .loading {
+        font-size: 0.5em; /* Reducir el tamaño de fuente del texto de carga */
+    }
+}
